@@ -1,4 +1,5 @@
 # yjs
+所有jar包可在对应module的target目录中获取。
 
 ## FilerWatcher
 jar包，用于监听是否有新数据被爬取，将新数据输入Kafka的某个topic。
