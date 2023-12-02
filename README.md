@@ -16,12 +16,15 @@ arg1:写入文件全路径名
 ```java -jar FileWriter-1.0-SNAPSHOT.jar arg0 arg1```
 
 ## Flink
+
 依赖：
 
-zookeeper3.4.13 <br>
-kafka2.1.1<br>
+zookeeper3.4.13  配置在2181端口<br> 
+kafka2.1.1 配置在9092端口<br>
 
-jar包：<br>
+Flink集群配置了三个节点master，worker1，worker2，每个节点中有一个slot。在启动集群后，浏览器打开 master:8081 进入flink dashboard提交任务。
+
+任务jar包：<br>
 ciyun-1.0-SNAPSHOT.jar<br>
     任务入口：
     
